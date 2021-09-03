@@ -1,0 +1,22 @@
+nav{
+    border: 2px solid green;
+}
+.addnote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border:2px solid rgb(78,sdzs 76, 76);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(29, 29, 4);
+    color: white;
+}
+.modal{
+    border: 2px solid black;
+}

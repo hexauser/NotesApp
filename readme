@@ -1,0 +1,19 @@
+welcome all,
+this file will work as a guide for you about this project.
+
+
+1) there is a class named 'modal' -> which should be invisible at start
+    and as soon as the user click on '+' symbol it should be visible with an overlay effect with background as blurred.
+
+
+2) in the container containing the notes only 4 notes should be seen in one row.
+    and new notes should be pushed to the next row
+
+
+3) the website is to completely responsive
+
+4) many more features will be added in near future
+
+
+
+

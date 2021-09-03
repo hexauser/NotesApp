@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-items">
+            <a href="#home">HOME</a>
+            <a href="#addnote">ADD A NOTE</a>
+            <input type="search" name="search" id="searchnote">
+        </div>
+        <button>&#9776;</button>
+    </nav>
+    <div class="addnote" id="addnote">+</div>
+
+    <!-- creating an overlay for text area and add a note button -->
+    <div class="modal">
+        <input type="text" name="noteadd" id="noteadd">
+        <button class="clicktoaddnote" id="clicktoaddnote">ADD NOTE</button>
+    </div>
+
+    <!-- newly created notes are contained here -->
+    <div class="container">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
